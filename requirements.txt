@@ -5,3 +5,5 @@ pandas
 matplotlib
 seaborn
 xgboost
+pickle
+tabulate
