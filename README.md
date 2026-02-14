@@ -4,12 +4,16 @@ a. Problem statement
     Finding out the best model that produces accuracy of given dataset which contains Breast Cancer Wisconsin (Diagnostic)
     
 b. Dataset description : 
+
         Dataset      : Breast Cancer Wisconsin (Diagnostic) Data Set
         Data set URL : https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
         Features : 33
         Instance size : 569
-        Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.
-        The mean, standard error and "worst" or largest (mean of the three largest values) of these features were computed for each image, resulting in 30 features. For instance, field 3 is Mean Radius, field 13 is Radius SE, field 23 is Worst Radius.
+        Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass.
+        They describe characteristics of the cell nuclei present in the image.       
+        The mean, standard error and "worst" or largest (mean of the three largest values) of these
+        features were computed for each image, resulting in 30 features. For instance, field 
+        3 is Mean Radius, field 13 is Radius SE, field 23 is Worst Radius.
 
 c. Models used: 
 
@@ -36,4 +40,4 @@ c. Models used:
 | KNN             |  Performed better than Naive bayes and equivalent to Decision tree. Missing positive |
 | Naive Bayes   | Lowest accuracy and other metrics parameter among all the models.  |
 | Random Forest | Performed well overall.Best among other model. Accuracy is same as Logistic regression but other factors are well. |
-| XGBoost       | Dataset is 600 so not performed well. FN is 4, slightly higher than RF   |
+| XGBoost       | Dataset is < 600 so not performed well comparing RF. FN is 4, slightly higher than RF   |
