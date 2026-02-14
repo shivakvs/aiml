@@ -1,9 +1,11 @@
 a. Problem statement
-    A dataset of binary classification problem
+    In Healthcare, finding out a person is diagnosed with breast tissues or not.
+    Finding out the best model that produces accuracy of given dataset which contains Breast Cancer Wisconsin (Diagnostic) ( binary classification problem).
+    
 b. Dataset description : 
           https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 
-c. Models used: Logistics Regression, Decision Tree, KNN, Naive Bayes, Random Forest and XGBoost
+c. Models used: Logistics Regression, Decision Tree, KNN, Naive Bayes, Random Forest ( Ensemble ) and XGBoost ( Ensemble )
 
 
 ## Evaluation Metrics of each model
